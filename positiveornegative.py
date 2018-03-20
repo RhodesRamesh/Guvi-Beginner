@@ -1,5 +1,7 @@
-a=int(input())
-if(1<=a<=100000):
+integer=int(input())
+if(1<=integer<=100000):
   print("Positive")
-else:
+elif(integer==0):
+  print("zero")
+else
   print("Negative")
